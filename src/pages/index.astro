@@ -1,0 +1,20 @@
+---
+import Main from "../Layout/Main.astro";
+import {SecondLogo} from "../ImageLinks"
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <Main title ="Digital Title">
+      <h1 class="text-3xl">Hello World</h1>
+      <a href="/about">Go to About</a>
+	  <img src={SecondLogo} />
+    </Main>
+  </body>
+</html>

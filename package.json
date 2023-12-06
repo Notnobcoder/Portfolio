@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Notnobcoder.github.io/Portfolio",
+  "homepage": "http://Notnobcoder.github.io",
   "name": "astro-testing",
   "type": "module",
   "version": "0.0.1",
@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
